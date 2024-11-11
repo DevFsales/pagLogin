@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-image:url(./imagens/bgtela.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+#container {
+       width: 500px;
+       background: transparent;
+       border: 2px solid rgba(158, 140, 177, 0.2);
+       backdrop-filter: blur(20px);
+       height: 420px;
+       border-radius: 5px;
+}
+.input-container{
+       position: relative;
+       width:80%;
+       height: 50px;
+       margin: 30px 0;
+       
+     
+        
+}
+.input-container input {
+    background: transparent;
+    padding:15px 50px 20px 20px;
+    margin-left: 120px;
+    outline: none;
+}
+
+.input-container input::placeholder {
+    color: rgb(231, 231, 231);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px double rgba(158, 140, 177, 0.2);
+    box-shadow: 1px 1px 1px 1px;
+    color: rgb(231, 231, 231);
+    border-radius:2px;
+}
+p{
+    color: rgb(231, 231, 231);
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px 20px 0;
+}.input-container a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(231, 231, 231);
+    text-align: center;
+}
+.input-container a:hover{
+    text-decoration: underline;
+}
+
+.btt {
+    width: 60%;
+    height: 50px;
+    background-color: rgb(103, 101, 122);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 95px;
+}
+.btt:hover {
+    background-color: rgb(131, 128, 155);
+}
+     
+#pr a,p {
+       text-decoration: none;
+       font-size: 16px;
+      color: #fff;
+      font-weight:500;
+     }
+#pr a:hover {
+    text-decoration: underline;
+}
